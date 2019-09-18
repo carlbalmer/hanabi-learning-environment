@@ -8,6 +8,3 @@ add_subdirectory (hanabi_lib)
 
 add_library (pyhanabi SHARED pyhanabi.cc)
 target_link_libraries (pyhanabi LINK_PUBLIC hanabi)
-
-add_executable (game_example game_example.cc)
-target_link_libraries (game_example LINK_PUBLIC hanabi)
