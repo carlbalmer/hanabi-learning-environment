@@ -5,5 +5,6 @@ setup(
     version='0.0.1',
     description='Reinforcement learning environment for the game of hanabi.',
     author='Forked from Deepmind',
-    packages=['hanabi_learning_environment']
+    packages=['hanabi_learning_environment'],
+    install_requires=['cffi']
 )
