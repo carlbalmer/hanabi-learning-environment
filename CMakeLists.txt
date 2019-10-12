@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.11.0)
-project(hanabi-learning-environment)
+cmake_minimum_required (VERSION 2.8.11)
+project (hanabi_learning_environment)
 
 set(CMAKE_C_FLAGS "-O2 -std=c++11 -fPIC")
 set(CMAKE_CXX_FLAGS "-O2 -std=c++11 -fPIC")
